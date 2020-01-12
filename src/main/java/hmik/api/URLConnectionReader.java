@@ -13,7 +13,7 @@ public class URLConnectionReader {
         //File file =  new File("/home/hmikulic/Pictures/Screenshot_20191111_214109.png");
         //File file =  new File("//home/hmikulic/Desktop/nbmp.txt");
         //File file =  new File("//home/hmikulic/Downloads/Životopis.pdf");
-        Path p = Paths.get("//home/hmikulic/Desktop/nbmp.txt");
+        Path p = Paths.get("//home/hmikulic/Desktop/eicar.com");
 
 
         HybridConnector hConnector = new HybridConnector();
