@@ -103,6 +103,7 @@ public class HybridConnector {
             System.out.println("NO report");
             return;
         }
+        System.out.println(report.toString());
         System.out.println("Verdict: " + report.get("verdict").getAsString());
         JsonArray scans = report.get("scanners").getAsJsonArray();
         System.out.println("Tried antivirus and result:");
